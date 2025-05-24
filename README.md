@@ -55,9 +55,7 @@ sudo apt-get update
 sudo apt-get install appimagelauncher
 ```
 
-**If the app does not connect to Ledger:**
-
-Copy the udev rules from the [official repository](https://github.com/LedgerHQ/udev-rules) and run the file `add_udev_rules.sh` with root rights.
+`add_udev_rules.sh` withr HQot rights.
 
 ```bash
 git clone https://github.com/LedgerHQ/udev-rules
